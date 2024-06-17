@@ -23,4 +23,4 @@ WHAT TO EXPECT?
        - if there are holes in the outline of the worm, increase the 'dilate' vaue.
     5. once you are happy with the parameters for the mask press 'Next". The GUI will take a moment to process all frames in the stack. it will generate a new enhanced stack, and stack with the mask. Once the GUI is done processing it will close the window, store the new stacks and open a new window for the last GUI.
        
-- The lasy GUI is designed so the User can define where along the body of the worm they want to place an ROI. once the ROI is defined, the user can display this ROI throughout the video for quality coontrol. Lastly, the user can extract intensity data from that ROI in both the GFP and RFP Frame, which results in a '.csv' file.
+- The last GUI is designed so the User can define where along the body of the worm they want to place an ROI. once the ROI is defined, the user can display this ROI throughout the video for quality coontrol. Lastly, the user can extract intensity data from that ROI in both the GFP and RFP Frame, which results in a '.csv' file.
