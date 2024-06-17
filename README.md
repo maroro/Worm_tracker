@@ -6,7 +6,7 @@ HOW TO USE?
 - RUN the code in the 'Worm_signal_tracking_MR.m'
 
 WHAT TO EXPECT?
-- When you rund the code it will first ask you to choose the TIFF stack that you will work with. I addition it will alow you to determine which sequence of frames from the stack you want to use for your analysis.
+- When you run the code it will first ask you to choose the TIFF stack that you will work with. I addition it will alow you to determine which sequence of frames from the stack you want to use for your analysis.
   
 - The first GUI window has two functions:
     1.  allow you to split GFP and RFP channels from a single image taken using a light splitter.
