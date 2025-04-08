@@ -6,13 +6,13 @@ HOW TO USE?
 - RUN the code in the 'Worm_signal_tracking_MR.m'
 
 WHAT TO EXPECT?
-- When you run the code it will first ask you to choose the TIFF stack that you will work with. I addition it will alow you to determine which sequence of frames from the stack you want to use for your analysis.
+- When you run the script it will first ask you to choose the TIFF stack that you will work with. In addition it will alow you to determine which sequence of frames from the stack you want to use for your analysis.
   
 - The first GUI window has two functions:
     1.  allow you to split GFP and RFP channels from a single image taken using a light splitter.
     2.  select key points in the body of the worm.
     3.  after selecting 'Next' thi GUI will split the images using the coordinates defined by user in the first step, then it will use a CNN algorithm to align the images.
-    4.  after it is donw processing images this GUI window will close and open the next one. NOTE: Please be patient, it is storing the newly created stacks so it may take few minutes before it opens the next GUI.
+    4.  after it is done processing images this GUI window will close and open the next one. NOTE: Please be patient, while this happens it is storing the newly created stacks so it may take few minutes before it opens the next GUI.
        
  - The second GUI allows the user to enhance the image for the purpose of creating a clear outline of the worm.
     1. Background subtraction allow you to select background area and use subtract it from the whole image.
